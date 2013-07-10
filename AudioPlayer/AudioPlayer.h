@@ -7,5 +7,9 @@ class AudioPlayer{
 		AudioPlayer();
 		byte init();
 	private:
+		void enableDataRequest();
+		void disableDataRequest();
+		void vsRequestForData();
+
 		
 };

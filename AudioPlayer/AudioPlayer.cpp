@@ -14,6 +14,20 @@ byte AudioPlayer::init(){
 	digitalWrite(MP3_XCS, HIGH);
 	digitalWrite(MP3_XDCS, HIGH);
 	digitalWrite(MP3_RESET, LOW);
+	delay(50);
+
 
 	return 0;
+}
+
+
+void AudioPlayer::enableDataRequest(){
+	attachInterrupt(MP3_DERQ_ISR_NUM,vsRequestForData, RISING );
+}
+void AudioPlayer::disableDataRequest(){
+	detachInterrupt(MP3_DERQ_ISR_NUM);
+
+}
+void AudioPlayer::vsRequestForData(){
+	
 }

@@ -2,6 +2,7 @@
 #define MP3_XDCS    7 //Data select
 #define MP3_DREQ    2 // Data request pin
 #define MP3_RESET 	8 // RESET PIN
+#define MP3_DERQ_ISR_NUM	0
 
 
 
