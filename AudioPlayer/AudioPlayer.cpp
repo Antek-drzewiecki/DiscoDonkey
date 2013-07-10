@@ -1,5 +1,6 @@
+#include "AudioPlayer.h"
+
 AudioPlayer::AudioPlayer(){
-	return 0;
 
 }
 

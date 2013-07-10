@@ -6,8 +6,6 @@ class AudioPlayer{
 	public:
 		AudioPlayer();
 		byte init();
-
-
 	private:
 		
-}
+};
